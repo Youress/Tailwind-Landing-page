@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="flex items-center h-24 px-12 justify-between">
+      <img class="w-28" src="../src/img/logo.png" alt="logo" />
+      <nav class="flex items-center gap-24">
+        <ul class="flex gap-9">
+          <li class="text-regal-orange text-xl font-medium">Home</li>
+          <li
+            class="hover:text-regal-orange duration-500 cursor-pointer text-xl font-medium"
+          >
+            Menu
+          </li>
+          <li
+            class="hover:text-regal-orange duration-500 cursor-pointer text-xl font-medium"
+          >
+            Service
+          </li>
+          <li
+            class="hover:text-regal-orange duration-500 cursor-pointer text-xl font-medium"
+          >
+            Shop
+          </li>
+        </ul>
+      </nav>
+      <form>
+        <div
+          class="search flex bg-white rounded-xl gap-8 shadow-b-sh py-2 px-4 relative"
+        >
+          <svg
+            class="svg-tlw w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="{1.5}"
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+          <input
+            class="outline-none border-r-2 border-solid focus"
+            type="search"
+            placeholder="Search"
+          />
+          <img class="cursor-pointer" src="../src/img/icon.png" alt="icon" />
+          <span
+            class="absolute w-6 bg-icon-color flex justify-center rounded-xl text-white font-bold -right-2.5 -top-2.5"
+            >2</span
+          >
+        </div>
+      </form>
+    </header>
+    <section class="py-10">
+      <div class="container grid grid-2-col items-center gap-8">
+        <div>
+          <div class="bg-rose-baht w-56 relative py-2 px-8 rounded-3xl mb-6">
+            <p class="text-icon-color font-medium">More than Faster</p>
+            <img
+              class="absolute right-0 -top-1.5"
+              src="../src/img/freeze.png"
+              alt="img"
+            />
+          </div>
+          <h1 class="text-6xl font-bold leading-snug mb-6">
+            Groceries delivered in as little as
+            <span class="text-icon-color">2 hours</span>
+          </h1>
+          <p class="text-grey-color mb-6">
+            Grocen atssures fresh grocery every morning to your family without
+            getting out in this pandemic.
+          </p>
+          <div class="flex items-center gap-10 mt-10">
+            <a
+              class="bg-icon-color text-white p-3 rounded-lg font-medium hover:bg-regal-orange"
+              href="#"
+              >Order Now
+            </a>
+            <a
+              class="text-yellow shadow-b-sh p-4 rounded-full hover:bg-icon-color duration-500 hover:text-white"
+              href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                />
+              </svg>
+            </a>
+            <a class="" href="#">Order Process </a>
+          </div>
+        </div>
+        <div>
+          <img src="../src/img/Header Image.png" alt="hero" />
+        </div>
+      </div>
+    </section>
+    <section class="py-24 bg-section-bg text-center">
+      <div class="container">
+        <p class="text-regal-orange font-bold uppercase mb-4">What we Serve</p>
+        <h3 class="text-4xl font-bold mb-20">
+          fruit and vegetable delivered to your home
+        </h3>
+        <div class="flex items-center justify-evenly gap-8 relative z-10">
+          <div class="w-80 h-64 bg-white rounded-3xl py-6 px-8">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-14 h-14 mb-4 mx-auto text-svg-color"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"
+              />
+            </svg>
+            <p class="font-bold text-xl mb-7">Free shipping</p>
+            <p class="text-grey-color">
+              Enjoy Order in a hand using the fresness of groceries
+            </p>
+          </div>
+          <div class="box w-80 h-64 bg-white rounded-3xl py-6 px-8 relative">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-14 h-14 mb-4 mx-auto text-svg-color"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
+              />
+            </svg>
+            <p class="font-bold text-xl mb-7">Secure checkout</p>
+            <p class="text-grey-color">
+              If you get rotten items - return immediately to us.
+            </p>
+          </div>
+          <div class="w-80 h-64 bg-white rounded-3xl py-6 px-8">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-14 h-14 mb-4 mx-auto text-svg-color"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"
+              />
+            </svg>
+            <p class="font-bold text-xl mb-7">15 days returns</p>
+            <p class="text-grey-color">
+              Order in a handy way using the freshness of the groceries.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-24">
+      <div class="container grid grid-two-col items-center gap-28">
+        <div>
+          <img src="../src/img/image and card.png" alt="img" />
+        </div>
+        <div>
+          <p class="text-green-500 mb-8 font-med">WHY CHOOSE US</p>
+          <h2 class="font-bold text-4xl mb-6">
+            Find Favorites and Discover New Ones
+          </h2>
+          <p class="text-grey-color mb-6 text-2xl">
+            At vero eos et accusamus et iusto odio dignissimos ducimus
+            blanditiis praesen voluptatum deleniti.
+          </p>
+          <a
+            class="bg-icon-color text-white p-3 rounded-lg font-medium hover:bg-regal-orange mt-6 block w-fit"
+            href="#"
+            >Explore Now</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="py-24">
+      <div class="container grid grid-two-col items-center gap-24">
+        <div>
+          <p class="text-yellow font-medium mb-8 font-med">HOME DELIVERY</p>
+          <h2 class="font-bold text-4xl mb-6">
+            Sit at Home We Will Take Care Your Order
+          </h2>
+          <p class="text-grey-color mb-6 text-2xl">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium voluptatum deleniti atque corrupti quos
+          </p>
+          <a
+            class="border-solid border-2 border-icon-color text-icon-color p-3 rounded-lg font-medium hover:bg-icon-color hover:text-white duration-500 mt-6 block w-fit"
+            href="#"
+            >Explore Now</a
+          >
+        </div>
+        <div>
+          <img src="../src/img/image & card.png" alt="img" />
+        </div>
+      </div>
+    </section>
+    <section class="py-24 bg-rose-baht">
+      <div class="container grid grid-cols-2 items-center gap-28">
+        <div class="justify-self-center">
+          <img src="../src/img/mobile mockup.png" alt="img" />
+        </div>
+        <div>
+          <p class="text-icon-color mb-8 font-med uppercase">
+            Download our app
+          </p>
+          <h2 class="font-bold text-4xl mb-6">
+            Get the Groceries app order more easily.
+          </h2>
+          <p class="text-grey-color mb-6 text-2xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut.
+          </p>
+          <div class="flex items-center gap-8">
+            <a
+              class="flex items-center gap-4 border-2 border-pink-200 rounded-2xl p-4 font-bold"
+              href="#"
+              >App Store<img src="../src/img/appsotre.png" alt="appStore"
+            /></a>
+            <a
+              class="flex items-center gap-4 border-2 border-rose-400 rounded-2xl p-4 font-bold"
+              href="#"
+              >Play Store<img src="../src/img/playsotre.png" alt="appStore"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-24">
+      <div class="container grid grid-cols-5 gap-8">
+        <div class="col-span-2">
+          <img src="../src/img/logo.png" alt="logo" />
+          <p class="text-grey-color max-w-xs mt-12">
+            Fast delivery, which is active all over the world, serves with many
+            transportation vehicles.
+          </p>
+        </div>
+        <ul class="ul-list">
+          <li class="li-header">Company</li>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>All Products</li>
+          <li>Locations Map</li>
+        </ul>
+        <ul class="ul-list">
+          <li class="li-header">Services</li>
+          <li>Order Tracking</li>
+          <li>Wish List</li>
+          <li>My Account</li>
+          <li>Terms & Conditions</li>
+        </ul>
+        <ul>
+          <li class="li-header">Get in Touch</li>
+          <li class="text-grey-color">
+            Subscribe to our weekly Newsletter and receive updates via email.
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <span class="border-t-2 w-10/12 h-1 block mx-auto"></span>
+    <section class=" p-8">
+      <div class="container pt-7 flex items-center justify-between">
+        <p class="text-grey-color">All Rights Reserved @ BESNIK 2021</p>
+        <p class="text-grey-color"><span>Terms & Conditions</span> <span>Privacy & Policy</span></p>
+      </div>
+    </section>
+  </body>
+</html>
